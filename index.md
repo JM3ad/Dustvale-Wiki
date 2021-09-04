@@ -22,6 +22,6 @@ Sociology:
 Individuals:
 {% for sitepage in site.pages %}
   {% if sitepage.url contains "/characters/" %}
-* [{{ sitepage.title }}]({{ sitepage.path }})
+* [{{ sitepage.title }}](./{{ sitepage.url }})
   {% endif %}
 {% endfor %}
